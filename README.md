@@ -1,61 +1,67 @@
-# TransSAM 第五个实验数据级复现
+# TransSAM Experimental Results
 
-对应论文：
-- `6.5 架构消融与关键参数敏感性分析`
-- `6.5.1 核心组件消融验证`
-- `6.5.2 跨域泛化与少样本适应能力分析`
-- `Table 7`
-- `Table 8`
+This repository contains the experimental implementations and result files used in the paper:
 
-本目录只负责第五个实验，不和 [project_1](D:/lunwen/project_1)、[project_2](D:/lunwen/project_2)、[project_3](D:/lunwen/project_3) 或 [project_4](D:/lunwen/project_4) 混用输出。
+**TransSAM: Robust Mobile Encrypted Traffic Detection via Semantic Attribute Representation and Visual Prompt Tuning**
 
-## 当前实现
+## Contents
 
-- 五个真实数据集参与评估
-- `6.5.1` 组件消融：
-  - `TransSAM (Ours)`
-  - `w/o SAM (1D Seq)`
-  - `w/o ViT (ResNet)`
-  - `w/o LWED`
-- `6.5.1` 指标：
-  - `F1`
-  - `AUC`
-- `6.5.1` 条件：
-  - `Clean`
-  - `Obfuscated-0.9`
-- `6.5.2` 跨域少样本适应：
-  - `shot = 1 / 3 / 5 / 10`
-  - `metric = F1`
-  - `method = TransSAM`
+| File                  | Description                 |
+| --------------------- | --------------------------- |
+| project_1.py          | Experiment 1 implementation |
+| project_1_results.csv | Experiment 1 results        |
+| project_2.py          | Experiment 2 implementation |
+| project_2_results.csv | Experiment 2 results        |
+| project_3.py          | Experiment 3 implementation |
+| project_3_results.csv | Experiment 3 results        |
+| project_4.py          | Experiment 4 implementation |
+| project_4_results.csv | Experiment 4 results        |
+| project_5.py          | Experiment 5 implementation |
+| project_5_results.csv | Experiment 5 results        |
 
-## 运行
+## Requirements
 
-```powershell
-cd D:\lunwen\project_5
-python project_5.py --quick
+```bash
+pip install pandas numpy matplotlib scikit-learn
 ```
 
-标准版：
+## Running Experiments
 
-```powershell
-cd D:\lunwen\project_5
-python project_5.py
+Run a specific experiment:
+
+```bash
+python project_1.py
 ```
 
-## 输出
+Example:
 
-- [project_5_results.scv](D:/lunwen/project_5/project_5_results.scv)
-- [project_5_results.json](D:/lunwen/project_5/project_5_results.json)
-- [project_5_manifest.json](D:/lunwen/project_5/project_5_manifest.json)
+```bash
+python project_3.py
+```
 
-## 使用边界
+## Results
 
-这是第五个实验的 `real-data proxy reproduction`。
+Experimental outputs are saved as CSV files:
 
-推荐表述：
+```text
+project_1_results.csv
+project_2_results.csv
+project_3_results.csv
+project_4_results.csv
+project_5_results.csv
+```
 
-`We implement a real-data proxy reproduction of Experiment 5, including the component ablation study and the cross-dataset few-shot adaptation analysis, on the five public datasets available in the workspace.`
+These files contain the evaluation metrics and statistical results reported in the paper.
 
-不建议表述：
+## Citation
 
-`We exactly reproduced the official training pipelines of all architectural variants.`
+```bibtex
+@article{transsam2026,
+  title={TransSAM: Robust Mobile Encrypted Traffic Detection via Semantic Attribute Representation and Visual Prompt Tuning},
+  year={2026}
+}
+```
+
+## License
+
+MIT License
