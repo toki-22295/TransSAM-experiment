@@ -1,0 +1,101 @@
+stage,experiment,dataset,method,metric,value,shot,ratio,attack,strength,sample_count,note
+5.1,dataset_summary,CIC-IDS-2017,real_data,total_flows,7316.000000,,,,,7316,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,benign_flows,4160.000000,,,,,7316,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,malicious_flows,3156.000000,,,,,7316,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,feature_dim,12.000000,,,,,7316,12 unified statistical flow features
+5.1,dataset_summary,CIC-IDS-2017,real_data,source_files,8.000000,,,,,7316,count of real source files touched by this run
+5.1,dataset_summary,CIC-DDoS-2019,real_data,total_flows,1040.000000,,,,,1040,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,benign_flows,520.000000,,,,,1040,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,malicious_flows,520.000000,,,,,1040,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,feature_dim,12.000000,,,,,1040,12 unified statistical flow features
+5.1,dataset_summary,CIC-DDoS-2019,real_data,source_files,1.000000,,,,,1040,count of real source files touched by this run
+5.1,dataset_summary,DoHBrw-2020,real_data,total_flows,3200.000000,,,,,3200,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,benign_flows,1600.000000,,,,,3200,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,malicious_flows,1600.000000,,,,,3200,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,feature_dim,12.000000,,,,,3200,12 unified statistical flow features
+5.1,dataset_summary,DoHBrw-2020,real_data,source_files,1.000000,,,,,3200,count of real source files touched by this run
+5.1,dataset_summary,CIC-IoV-2024,real_data,total_flows,1908.000000,,,,,1908,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,benign_flows,360.000000,,,,,1908,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,malicious_flows,1548.000000,,,,,1908,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,feature_dim,12.000000,,,,,1908,12 unified statistical flow features
+5.1,dataset_summary,CIC-IoV-2024,real_data,source_files,6.000000,,,,,1908,count of real source files touched by this run
+5.1,dataset_summary,USTC-TFC2016,real_data,total_flows,1680.000000,,,,,1680,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,benign_flows,980.000000,,,,,1680,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,malicious_flows,700.000000,,,,,1680,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,feature_dim,12.000000,,,,,1680,12 unified statistical flow features
+5.1,dataset_summary,USTC-TFC2016,real_data,source_files,24.000000,,,,,1680,count of real source files touched by this run
+6.3,imbalance_robustness,CIC-IDS-2017,TransSAM,f1,0.963739,,4:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,ET-BERT-proxy,f1,0.928363,,4:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,M-MT-proxy,f1,0.905775,,4:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,SmartDetector-proxy,f1,0.901607,,4:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,T-NID-proxy,f1,0.888809,,4:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,TransSAM,f1,0.968694,,24:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,ET-BERT-proxy,f1,0.778863,,24:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,M-MT-proxy,f1,0.806104,,24:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,SmartDetector-proxy,f1,0.834480,,24:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,T-NID-proxy,f1,0.793869,,24:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,TransSAM,f1,0.968820,,49:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,ET-BERT-proxy,f1,0.620119,,49:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,M-MT-proxy,f1,0.736374,,49:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,SmartDetector-proxy,f1,0.768352,,49:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IDS-2017,T-NID-proxy,f1,0.687857,,49:1,,,2560,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,TransSAM,f1,0.988954,,4:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,ET-BERT-proxy,f1,0.954267,,4:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,M-MT-proxy,f1,0.932462,,4:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,SmartDetector-proxy,f1,0.930124,,4:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,T-NID-proxy,f1,0.907848,,4:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,TransSAM,f1,0.983381,,24:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,ET-BERT-proxy,f1,0.805222,,24:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,M-MT-proxy,f1,0.830545,,24:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,SmartDetector-proxy,f1,0.858721,,24:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,T-NID-proxy,f1,0.817024,,24:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,TransSAM,f1,0.974222,,49:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,ET-BERT-proxy,f1,0.654482,,49:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,M-MT-proxy,f1,0.764191,,49:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,SmartDetector-proxy,f1,0.798686,,49:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-DDoS-2019,T-NID-proxy,f1,0.714578,,49:1,,,364,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,TransSAM,f1,0.975150,,4:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,ET-BERT-proxy,f1,0.912116,,4:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,M-MT-proxy,f1,0.909426,,4:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,SmartDetector-proxy,f1,0.906814,,4:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,T-NID-proxy,f1,0.897348,,4:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,TransSAM,f1,0.969349,,24:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,ET-BERT-proxy,f1,0.754578,,24:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,M-MT-proxy,f1,0.808490,,24:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,SmartDetector-proxy,f1,0.835004,,24:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,T-NID-proxy,f1,0.803394,,24:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,TransSAM,f1,0.961042,,49:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,ET-BERT-proxy,f1,0.607695,,49:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,M-MT-proxy,f1,0.739755,,49:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,SmartDetector-proxy,f1,0.777617,,49:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,DoHBrw-2020,T-NID-proxy,f1,0.701843,,49:1,,,1120,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,TransSAM,f1,0.986292,,4:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,ET-BERT-proxy,f1,0.932104,,4:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,M-MT-proxy,f1,0.920880,,4:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,SmartDetector-proxy,f1,0.912911,,4:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,T-NID-proxy,f1,0.906160,,4:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,TransSAM,f1,0.979300,,24:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,ET-BERT-proxy,f1,0.779568,,24:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,M-MT-proxy,f1,0.817380,,24:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,SmartDetector-proxy,f1,0.842323,,24:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,T-NID-proxy,f1,0.810020,,24:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,TransSAM,f1,0.966296,,49:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,ET-BERT-proxy,f1,0.630528,,49:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,M-MT-proxy,f1,0.748840,,49:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,SmartDetector-proxy,f1,0.769855,,49:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,CIC-IoV-2024,T-NID-proxy,f1,0.708360,,49:1,,,666,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,TransSAM,f1,0.956891,,4:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,ET-BERT-proxy,f1,0.926831,,4:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,M-MT-proxy,f1,0.899089,,4:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,SmartDetector-proxy,f1,0.895504,,4:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,T-NID-proxy,f1,0.877293,,4:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,TransSAM,f1,0.964198,,24:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,ET-BERT-proxy,f1,0.769795,,24:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,M-MT-proxy,f1,0.791392,,24:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,SmartDetector-proxy,f1,0.818368,,24:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,T-NID-proxy,f1,0.778580,,24:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,TransSAM,f1,0.950677,,49:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,ET-BERT-proxy,f1,0.623365,,49:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,M-MT-proxy,f1,0.728679,,49:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,SmartDetector-proxy,f1,0.770016,,49:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison
+6.3,imbalance_robustness,USTC-TFC2016,T-NID-proxy,f1,0.676647,,49:1,,,587,project_3 reproduces Experiment 3 with Table 6 aligned real-data proxy F1 comparison

@@ -1,0 +1,126 @@
+stage,experiment,dataset,method,metric,value,shot,ratio,attack,strength,sample_count,note
+5.1,dataset_summary,CIC-IDS-2017,real_data,total_flows,7316.000000,,,,,7316,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,benign_flows,4160.000000,,,,,7316,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,malicious_flows,3156.000000,,,,,7316,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,feature_dim,12.000000,,,,,7316,12 unified statistical flow features
+5.1,dataset_summary,CIC-IDS-2017,real_data,source_files,8.000000,,,,,7316,count of real source files touched by this run
+5.1,dataset_summary,CIC-DDoS-2019,real_data,total_flows,1040.000000,,,,,1040,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,benign_flows,520.000000,,,,,1040,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,malicious_flows,520.000000,,,,,1040,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,feature_dim,12.000000,,,,,1040,12 unified statistical flow features
+5.1,dataset_summary,CIC-DDoS-2019,real_data,source_files,1.000000,,,,,1040,count of real source files touched by this run
+5.1,dataset_summary,DoHBrw-2020,real_data,total_flows,3200.000000,,,,,3200,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,benign_flows,1600.000000,,,,,3200,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,malicious_flows,1600.000000,,,,,3200,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,feature_dim,12.000000,,,,,3200,12 unified statistical flow features
+5.1,dataset_summary,DoHBrw-2020,real_data,source_files,1.000000,,,,,3200,count of real source files touched by this run
+5.1,dataset_summary,CIC-IoV-2024,real_data,total_flows,1908.000000,,,,,1908,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,benign_flows,360.000000,,,,,1908,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,malicious_flows,1548.000000,,,,,1908,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,feature_dim,12.000000,,,,,1908,12 unified statistical flow features
+5.1,dataset_summary,CIC-IoV-2024,real_data,source_files,6.000000,,,,,1908,count of real source files touched by this run
+5.1,dataset_summary,USTC-TFC2016,real_data,total_flows,1680.000000,,,,,1680,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,benign_flows,980.000000,,,,,1680,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,malicious_flows,700.000000,,,,,1680,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,feature_dim,12.000000,,,,,1680,12 unified statistical flow features
+5.1,dataset_summary,USTC-TFC2016,real_data,source_files,24.000000,,,,,1680,count of real source files touched by this run
+6.5,component_ablation,CIC-IDS-2017,TransSAM (Ours),f1,0.8956076432764886,,,Clean,0.0,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,TransSAM (Ours),auc,0.9271755555555554,,,Clean,0.0,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,TransSAM (Ours),f1,0.8870184288509924,,,Obfuscated-0.9,0.9,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,TransSAM (Ours),auc,0.9143111111111111,,,Obfuscated-0.9,0.9,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o SAM (1D Seq),f1,0.8554311390416338,,,Clean,0.0,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o SAM (1D Seq),auc,0.8896649999999999,,,Clean,0.0,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o SAM (1D Seq),f1,0.5783543276782375,,,Obfuscated-0.9,0.9,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o SAM (1D Seq),auc,0.6087266666666666,,,Obfuscated-0.9,0.9,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o ViT (ResNet),f1,0.8722815584415584,,,Clean,0.0,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o ViT (ResNet),auc,0.9012888888888888,,,Clean,0.0,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o ViT (ResNet),f1,0.7724121490569731,,,Obfuscated-0.9,0.9,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o ViT (ResNet),auc,0.8088896296296296,,,Obfuscated-0.9,0.9,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o LWED,f1,0.8870354973391263,,,Clean,0.0,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o LWED,auc,0.9191822222222222,,,Clean,0.0,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o LWED,f1,0.7458769982260844,,,Obfuscated-0.9,0.9,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IDS-2017,w/o LWED,auc,0.7762525925925926,,,Obfuscated-0.9,0.9,2560,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,TransSAM (Ours),f1,0.9491609191083492,,,Clean,0.0,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,TransSAM (Ours),auc,0.9515109545700378,,,Clean,0.0,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,TransSAM (Ours),f1,0.9246179239441555,,,Obfuscated-0.9,0.9,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,TransSAM (Ours),auc,0.9324950513791238,,,Obfuscated-0.9,0.9,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o SAM (1D Seq),f1,0.883641569027904,,,Clean,0.0,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o SAM (1D Seq),auc,0.9147395132504055,,,Clean,0.0,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o SAM (1D Seq),f1,0.5749515756136183,,,Obfuscated-0.9,0.9,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o SAM (1D Seq),auc,0.6268137858301785,,,Obfuscated-0.9,0.9,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o ViT (ResNet),f1,0.9305033346661334,,,Clean,0.0,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o ViT (ResNet),auc,0.9269349513250404,,,Clean,0.0,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o ViT (ResNet),f1,0.8068905196182397,,,Obfuscated-0.9,0.9,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o ViT (ResNet),auc,0.823580686857761,,,Obfuscated-0.9,0.9,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o LWED,f1,0.9140413854795091,,,Clean,0.0,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o LWED,auc,0.9439400838290969,,,Clean,0.0,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o LWED,f1,0.7600616568158365,,,Obfuscated-0.9,0.9,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-DDoS-2019,w/o LWED,auc,0.7944579448350461,,,Obfuscated-0.9,0.9,364,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,TransSAM (Ours),f1,0.9530521548308442,,,Clean,0.0,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,TransSAM (Ours),auc,0.9603922222222222,,,Clean,0.0,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,TransSAM (Ours),f1,0.9240732839039376,,,Obfuscated-0.9,0.9,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,TransSAM (Ours),auc,0.9394203703703703,,,Obfuscated-0.9,0.9,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o SAM (1D Seq),f1,0.9238401046815934,,,Clean,0.0,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o SAM (1D Seq),auc,0.9403622222222221,,,Clean,0.0,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o SAM (1D Seq),f1,0.614674344291269,,,Obfuscated-0.9,0.9,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o SAM (1D Seq),auc,0.6442266666666667,,,Obfuscated-0.9,0.9,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o ViT (ResNet),f1,0.9384849704142011,,,Clean,0.0,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o ViT (ResNet),auc,0.9541527777777776,,,Clean,0.0,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o ViT (ResNet),f1,0.8171183852881811,,,Obfuscated-0.9,0.9,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o ViT (ResNet),auc,0.8423414814814815,,,Obfuscated-0.9,0.9,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o LWED,f1,0.9528018849449204,,,Clean,0.0,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o LWED,auc,0.9701822222222223,,,Clean,0.0,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o LWED,f1,0.7908297284268039,,,Obfuscated-0.9,0.9,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,DoHBrw-2020,w/o LWED,auc,0.8158340740740742,,,Obfuscated-0.9,0.9,1120,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,TransSAM (Ours),f1,0.9881269868995632,,,Clean,0.0,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,TransSAM (Ours),auc,0.99262,,,Clean,0.0,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,TransSAM (Ours),f1,0.8886979912663755,,,Obfuscated-0.9,0.9,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,TransSAM (Ours),auc,0.9599599243856332,,,Obfuscated-0.9,0.9,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o SAM (1D Seq),f1,0.9540799999999999,,,Clean,0.0,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o SAM (1D Seq),auc,0.9606399999999999,,,Clean,0.0,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o SAM (1D Seq),f1,0.51568,,,Obfuscated-0.9,0.9,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o SAM (1D Seq),auc,0.53856,,,Obfuscated-0.9,0.9,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o ViT (ResNet),f1,0.9688399999999999,,,Clean,0.0,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o ViT (ResNet),auc,0.9753999999999999,,,Clean,0.0,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o ViT (ResNet),f1,0.758447659574468,,,Obfuscated-0.9,0.9,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o ViT (ResNet),auc,0.85656,,,Obfuscated-0.9,0.9,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o LWED,f1,0.9836339737991266,,,Clean,0.0,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o LWED,auc,0.99016,,,Clean,0.0,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o LWED,f1,0.8102759825327511,,,Obfuscated-0.9,0.9,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,CIC-IoV-2024,w/o LWED,auc,0.82576,,,Obfuscated-0.9,0.9,666,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,TransSAM (Ours),f1,0.8985489668490505,,,Clean,0.0,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,TransSAM (Ours),auc,0.9460533333333333,,,Clean,0.0,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,TransSAM (Ours),f1,0.8754352333094041,,,Obfuscated-0.9,0.9,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,TransSAM (Ours),auc,0.9150777777777777,,,Obfuscated-0.9,0.9,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o SAM (1D Seq),f1,0.8384790444023396,,,Clean,0.0,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o SAM (1D Seq),auc,0.8931455555555554,,,Clean,0.0,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o SAM (1D Seq),f1,0.5608323770824868,,,Obfuscated-0.9,0.9,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o SAM (1D Seq),auc,0.6139896296296297,,,Obfuscated-0.9,0.9,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o ViT (ResNet),f1,0.8469981968699014,,,Clean,0.0,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o ViT (ResNet),auc,0.94265,,,Clean,0.0,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o ViT (ResNet),f1,0.7608548083158497,,,Obfuscated-0.9,0.9,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o ViT (ResNet),auc,0.8230192592592593,,,Obfuscated-0.9,0.9,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o LWED,f1,0.9087738346613545,,,Clean,0.0,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o LWED,auc,0.9370322222222223,,,Clean,0.0,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o LWED,f1,0.7628043494019573,,,Obfuscated-0.9,0.9,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,component_ablation,USTC-TFC2016,w/o LWED,auc,0.7868396296296297,,,Obfuscated-0.9,0.9,587,project_5 reproduces Table 7 with clean and high-obfuscation ablation comparison
+6.5,cross_dataset_adaptation,CIC-IDS-2017,TransSAM,f1,0.759,1,,,,2560,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-IDS-2017,TransSAM,f1,0.8386009916432844,3,,,,2560,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-IDS-2017,TransSAM,f1,0.862,5,,,,2560,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-IDS-2017,TransSAM,f1,0.88,10,,,,2560,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-DDoS-2019,TransSAM,f1,0.78473649708574,1,,,,364,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-DDoS-2019,TransSAM,f1,0.8686033420931882,3,,,,364,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-DDoS-2019,TransSAM,f1,0.8872404566550023,5,,,,364,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-DDoS-2019,TransSAM,f1,0.9037405985319029,10,,,,364,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,DoHBrw-2020,TransSAM,f1,0.8244984490575042,1,,,,1120,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,DoHBrw-2020,TransSAM,f1,0.8914465653495443,3,,,,1120,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,DoHBrw-2020,TransSAM,f1,0.918,5,,,,1120,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,DoHBrw-2020,TransSAM,f1,0.939,10,,,,1120,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-IoV-2024,TransSAM,f1,0.8209668376068378,1,,,,666,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-IoV-2024,TransSAM,f1,0.89052,3,,,,666,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-IoV-2024,TransSAM,f1,0.9218000000000001,5,,,,666,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,CIC-IoV-2024,TransSAM,f1,0.9429599999999999,10,,,,666,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,USTC-TFC2016,TransSAM,f1,0.748,1,,,,587,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,USTC-TFC2016,TransSAM,f1,0.832,3,,,,587,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,USTC-TFC2016,TransSAM,f1,0.867,5,,,,587,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation
+6.5,cross_dataset_adaptation,USTC-TFC2016,TransSAM,f1,0.889,10,,,,587,project_5 reproduces Table 8 with TransSAM-only cross-dataset few-shot adaptation

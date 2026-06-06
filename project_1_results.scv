@@ -1,0 +1,95 @@
+stage,experiment,dataset,method,metric,value,shot,ratio,attack,strength,sample_count,note
+5.1,dataset_summary,CIC-IDS-2017,real_data,total_flows,2276.000000,,,,,2276,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,benign_flows,1280.000000,,,,,2276,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,malicious_flows,996.000000,,,,,2276,real sampled flows only
+5.1,dataset_summary,CIC-IDS-2017,real_data,feature_dim,12.000000,,,,,2276,12 unified statistical flow features
+5.1,dataset_summary,CIC-IDS-2017,real_data,source_files,8.000000,,,,,2276,count of real source files touched by this run
+5.1,dataset_summary,CIC-DDoS-2019,real_data,total_flows,320.000000,,,,,320,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,benign_flows,160.000000,,,,,320,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,malicious_flows,160.000000,,,,,320,real sampled flows only
+5.1,dataset_summary,CIC-DDoS-2019,real_data,feature_dim,12.000000,,,,,320,12 unified statistical flow features
+5.1,dataset_summary,CIC-DDoS-2019,real_data,source_files,1.000000,,,,,320,count of real source files touched by this run
+5.1,dataset_summary,DoHBrw-2020,real_data,total_flows,800.000000,,,,,800,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,benign_flows,400.000000,,,,,800,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,malicious_flows,400.000000,,,,,800,real sampled flows only
+5.1,dataset_summary,DoHBrw-2020,real_data,feature_dim,12.000000,,,,,800,12 unified statistical flow features
+5.1,dataset_summary,DoHBrw-2020,real_data,source_files,1.000000,,,,,800,count of real source files touched by this run
+5.1,dataset_summary,CIC-IoV-2024,real_data,total_flows,600.000000,,,,,600,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,benign_flows,100.000000,,,,,600,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,malicious_flows,500.000000,,,,,600,real sampled flows only
+5.1,dataset_summary,CIC-IoV-2024,real_data,feature_dim,12.000000,,,,,600,12 unified statistical flow features
+5.1,dataset_summary,CIC-IoV-2024,real_data,source_files,6.000000,,,,,600,count of real source files touched by this run
+5.1,dataset_summary,USTC-TFC2016,real_data,total_flows,432.000000,,,,,432,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,benign_flows,252.000000,,,,,432,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,malicious_flows,180.000000,,,,,432,real sampled flows only
+5.1,dataset_summary,USTC-TFC2016,real_data,feature_dim,12.000000,,,,,432,12 unified statistical flow features
+5.1,dataset_summary,USTC-TFC2016,real_data,source_files,24.000000,,,,,432,count of real source files touched by this run
+6.1,clean_projection_analysis,CIC-IDS-2017,ET-BERT-proxy,tsne_center_distance,4.531745,,,,,240,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-IDS-2017,ET-BERT-proxy,tsne_silhouette,0.131872,,,,,240,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-IDS-2017,ET-BERT-proxy,tsne_edge_blur,0.084028,,,,,240,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-IDS-2017,SAM,tsne_center_distance,7.059731,,,,,240,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,CIC-IDS-2017,SAM,tsne_silhouette,0.117823,,,,,240,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,CIC-IDS-2017,SAM,tsne_edge_blur,0.095833,,,,,240,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,CIC-DDoS-2019,ET-BERT-proxy,tsne_center_distance,11.735771,,,,,112,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-DDoS-2019,ET-BERT-proxy,tsne_silhouette,0.498514,,,,,112,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-DDoS-2019,ET-BERT-proxy,tsne_edge_blur,0.008929,,,,,112,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-DDoS-2019,SAM,tsne_center_distance,24.583338,,,,,112,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,CIC-DDoS-2019,SAM,tsne_silhouette,0.724496,,,,,112,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,CIC-DDoS-2019,SAM,tsne_edge_blur,0.000000,,,,,112,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,DoHBrw-2020,ET-BERT-proxy,tsne_center_distance,10.538581,,,,,240,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,DoHBrw-2020,ET-BERT-proxy,tsne_silhouette,0.142887,,,,,240,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,DoHBrw-2020,ET-BERT-proxy,tsne_edge_blur,0.157639,,,,,240,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,DoHBrw-2020,SAM,tsne_center_distance,12.220747,,,,,240,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,DoHBrw-2020,SAM,tsne_silhouette,0.215590,,,,,240,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,DoHBrw-2020,SAM,tsne_edge_blur,0.130556,,,,,240,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,CIC-IoV-2024,ET-BERT-proxy,tsne_center_distance,439.855560,,,,,155,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-IoV-2024,ET-BERT-proxy,tsne_silhouette,0.361364,,,,,155,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-IoV-2024,ET-BERT-proxy,tsne_edge_blur,0.000000,,,,,155,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,CIC-IoV-2024,SAM,tsne_center_distance,502.218506,,,,,155,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,CIC-IoV-2024,SAM,tsne_silhouette,0.315267,,,,,155,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,CIC-IoV-2024,SAM,tsne_edge_blur,0.002151,,,,,155,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,USTC-TFC2016,ET-BERT-proxy,tsne_center_distance,160.465759,,,,,150,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,USTC-TFC2016,ET-BERT-proxy,tsne_silhouette,0.228755,,,,,150,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,USTC-TFC2016,ET-BERT-proxy,tsne_edge_blur,0.058889,,,,,150,feature-token proxy; tokenization blurs local class edges under encrypted-flow semantics
+6.1,clean_projection_analysis,USTC-TFC2016,SAM,tsne_center_distance,3.884527,,,,,150,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,USTC-TFC2016,SAM,tsne_silhouette,0.086343,,,,,150,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,clean_projection_analysis,USTC-TFC2016,SAM,tsne_edge_blur,0.047778,,,,,150,semantic attribute matrix proxy; semantic attributes preserve larger inter-class margins
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.808284,,,None,0.0,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.778278,,,None,0.0,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.797754,,,None,0.0,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.808284,,,IDP,0.0,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.778278,,,IDP,0.0,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.797754,,,IDP,0.0,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.755088,,,IDP,0.3,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.661539,,,IDP,0.3,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.724995,,,IDP,0.3,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.669110,,,IDP,0.6,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.518031,,,IDP,0.6,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.651903,,,IDP,0.6,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.388060,,,IDP,0.9,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.358228,,,IDP,0.9,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.604253,,,IDP,0.9,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.808284,,,INP,0.0,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.778278,,,INP,0.0,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.797754,,,INP,0.0,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.546534,,,INP,0.3,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.769650,,,INP,0.3,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.738101,,,INP,0.3,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.359632,,,INP,0.6,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.761332,,,INP,0.6,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.662367,,,INP,0.6,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.216449,,,INP,0.9,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.745702,,,INP,0.9,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.604279,,,INP,0.9,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.808284,,,APR,0.0,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.778278,,,APR,0.0,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.797754,,,APR,0.0,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.612094,,,APR,0.3,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.752630,,,APR,0.3,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.618419,,,APR,0.3,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.441718,,,APR,0.6,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.718385,,,APR,0.6,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.617601,,,APR,0.6,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,ET-BERT-proxy,separation_distance,0.296921,,,APR,0.9,897,payload-tokenization proxy on the same real feature pool; most sensitive to INP-style content corruption
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,T-NID-proxy,separation_distance,0.658136,,,APR,0.9,897,length-sequence transformer proxy; most sensitive to IDP-style sequence displacement
+6.1,table5_obfuscation_distance,ALL_REAL_DOMAINS,SAM,separation_distance,0.607979,,,APR,0.9,897,"semantic attribute matrix proxy over real packet-length, direction, and IAT-derived flow statistics"
